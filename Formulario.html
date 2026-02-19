@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="esse é meu primeiro site">
+    <meta name="keywords" content="">
+    <title>Fazer seu agendamento</title>
+    <link rel="stylesheet" href="css/stilo.css">
+</head>
+<body>
+    <a style="text-decoration: none;" href="../stilo's car.html"><h1>stilo's car <sub style="font-size: 40px;">formulario></sub></h1></a>
+    
+
+    <h2 class="texto fonte">Selecionar serviços</h2>
+    <form>
+            <div class="dados_total">
+
+            <p style="font-size: 30px;"><b>Lavagens:</b></p>
+            <div class="escolha">
+                <input id="lavagem simples" type="radio" name="lavagem" value="lavagem simples">
+                <label for="lavagem simples">Lavagem Sim ples</label>
+                <br><br>
+                <input id="lavagem completa" type="radio" name="lavagem" value="lavagem completa">
+                <label for="lavagem completa">Lavagem Completa</label>
+            </div>
+
+            <p style="font-size: 30px;"><b>Encerar:</b></p>
+            <div class="encerar texto">
+                <input id="sim" type="radio" required name="cera" value="cera sim">
+                <label for="sim">Sim</label>
+                <input id="nao" type="radio" name="cera" value="cera nao">
+                <label for="nao">Não</label>
+            </div>
+
+            <p style="font-size: 30px;"><b>Serviços adicionais:</b></p>
+            
+            <div class="dicionais">
+                <input id="ad1" type="checkbox" name="ad1" value="Polimento">
+                <label for="ad1">Polimento</label>
+                <br>            
+                <input id="ad2" type="checkbox" name="ad2" value="Polimento de Farol">
+                <label for="ad2">Polimento de Farol</label>
+                <br>
+                <input id="ad3" type="checkbox" name="ad3" value="Limpeza de banco">
+                <label for="ad3">Limpeza de banco</label>
+                <br>
+                <input id="ad4" type="checkbox" name="ad4" value="Tirar filme">
+                <label for="ad4">Tirar filme</label>
+            </div>
+
+            <h2 class="texto">Seus Dados</h2>
+            <div class="informaçao_pessoais">
+                <label for="nome">Nome: </label>
+                <input id="nome" type="text" placeholder="digite seu nome" required>
+                <br><br>
+                <label for="telefone">Telefone: </label>
+                <input id="telefone" type="tel" placeholder="digite seu telefone" required>
+                <br><br>
+                <label for="placa">Placa do veículo: </label>
+                <input id="placa" type="text" placeholder="digite a placa" required>
+                <br><br>
+                <label for="modelo">Modelo do veículo: </label>
+                <input id="modelo" type="text" placeholder="digite o modelo do veículo" required>
+            </div>
+            <br>
+
+           <h2 class="texto">Observação</h2>
+            <div class="observaçao">
+                <textarea name="observacao" placeholder="ex: não mexer no porta-luva" rows="7" cols="50"></textarea>
+            </div>
+
+             <br><br><br><input class="fazer_agendamento" type="submit" value="Fazer agendamento">
+
+        </div>
+ 
+           
+    </form>
+    <hr>
+    <br>
+    <a class="voltar" href="../stilo's car.html">Volta</a>
+</body>
+</html>
