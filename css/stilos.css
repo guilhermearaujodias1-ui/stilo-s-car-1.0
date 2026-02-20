@@ -36,7 +36,7 @@ a.voltar:hover{
     text-align: center;
 }
 .dados_total{
-    background-image: url(img/asfallto.jpg);
+    background-image: url(../img/asfalto.jpg);
     background-position: center;
     background-size: cover;
     max-width: 800px;
@@ -148,11 +148,32 @@ h1{
     color: white;
     font-size: 60px;
     font-family: "Racing Sans One", sans-serif;
-    display: inline-block;
+    display: block;
     padding-left: 40%;
+   
 
 }
 .texto-center{
     text-align: center;
     text-decoration: none;
+}
+.serviços{
+    background-image: url(../img/asfalto.jpg);
+    color: rgb(252, 252, 252);
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 2px solid red;
+    font-size: 20px;
+}
+.titulo{
+    color: white;
+    font-size: 60px;
+    font-family: "Racing Sans One", sans-serif;
+    display: block;
+    padding-left: 40%;
 }
